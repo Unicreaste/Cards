@@ -1,0 +1,57 @@
+div {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px; 
+    
+}
+
+.red {
+    background-color: red;
+    position: relative;
+    left: 0;
+    transition-duration: 1s;
+    transition-property: left;
+}
+
+.red:hover{
+    left: 200px
+}
+
+.green {
+    background-color: green;
+    position: relative;
+    left: 15px;
+    bottom: 175px;
+    transition-duration: 1s;
+    transition-property: left;
+}
+
+.green:hover{
+    left: 200px
+}
+
+.yellow {
+    background-color: yellow;
+    position: relative;
+    bottom: 525px;
+    left: 55px;
+    transition-duration: 1s;
+    transition-property: left;
+}
+.yellow:hover{
+    left: 200px
+}
+
+.blue {
+    background-color: blue;
+    position: relative;
+    bottom: 350px;
+    left: 35px;
+    transition-duration: 1s;
+}
+
+.blue:hover{
+    left: 200px
+}
